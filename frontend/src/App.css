@@ -1,0 +1,347 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 40px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ff6347;
+}
+
+/* Header */
+.header {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+.header p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Carousel */
+.carousel-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.carousel-item {
+  display: inline-block;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* About */
+.about-page {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.about-page h1 {
+  font-size: 36px;
+}
+
+.about-page p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Contact */
+.contact-page {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 36px;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-page input,
+.contact-page textarea {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-page button {
+  padding: 15px 25px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-page button:hover {
+  background-color: #218838;
+}
+
+/* Profile Matching */
+.profile-matching {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.profile-matching h1 {
+  font-size: 36px;
+}
+
+.profile-matching p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Student Profile */
+.student-profile {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.student-profile h2 {
+  font-size: 32px;
+}
+
+.student-profile .profile-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.student-profile .profile-info div {
+  max-width: 300px;
+}
+
+.student-profile .profile-info h3 {
+  font-size: 24px;
+}
+
+.student-profile .profile-info p {
+  font-size: 16px;
+}
+
+/* Alumni Profile */
+.alumni-profile {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.alumni-profile h2 {
+  font-size: 32px;
+}
+
+.alumni-profile .profile-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.alumni-profile .profile-info div {
+  max-width: 300px;
+}
+
+.alumni-profile .profile-info h3 {
+  font-size: 24px;
+}
+
+.alumni-profile .profile-info p {
+  font-size: 16px;
+}
+
+/* Login */
+.login-page {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.login-page h1 {
+  font-size: 36px;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-page input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-page button {
+  padding: 15px 25px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.login-page button:hover {
+  background-color: #0056b3;
+}
+
+/* Logout */
+.logout-page {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.logout-page h1 {
+  font-size: 36px;
+}
+
+.logout-page button {
+  padding: 15px 25px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-page button:hover {
+  background-color: #218838;
+}
+
+/* Search */
+.search-page {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.search-page h1 {
+  font-size: 36px;
+}
+
+.search-page input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-page button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-page button:hover {
+  background-color: #e53e4d;
+}

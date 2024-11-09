@@ -1,0 +1,68 @@
+[
+    {
+      "id": "a1001",
+      "type": "alumni",
+      "name": "Sarah Zhang",
+      "profession": "Senior Software Engineer",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "AWS",
+        "System Design"
+      ],
+      "yearsExperience": 8,
+      "specialization": "Backend Development",
+      "industryExperience": ["E-commerce", "FinTech", "Cloud Services"],
+      "mentoringTopics": [
+        "Software Architecture",
+        "Career Growth in Tech",
+        "Technical Leadership"
+      ],
+      "availabilityHours": ["Mon 5-6pm", "Wed 6-7pm"]
+    },
+    {
+      "id": "a1002",
+      "type": "alumni",
+      "name": "Michael Patel",
+      "profession": "Data Science Manager",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "Deep Learning",
+        "MLOps",
+        "Team Leadership"
+      ],
+      "yearsExperience": 6,
+      "specialization": "Machine Learning",
+      "industryExperience": ["AI Research", "Healthcare Analytics"],
+      "mentoringTopics": [
+        "Machine Learning Career Path",
+        "Data Science Projects",
+        "Team Management"
+      ],
+      "availabilityHours": ["Tue 7-8pm", "Thu 6-7pm"]
+    },
+    {
+      "id": "a1003",
+      "type": "alumni",
+      "name": "Rachel Foster",
+      "profession": "Product Manager",
+      "skills": [
+        "Product Strategy",
+        "Agile",
+        "User Research",
+        "Data Analytics",
+        "Stakeholder Management"
+      ],
+      "yearsExperience": 5,
+      "specialization": "B2C Products",
+      "industryExperience": ["SaaS", "Mobile Apps", "E-commerce"],
+      "mentoringTopics": [
+        "Product Management Transition",
+        "Product Strategy",
+        "Career Development"
+      ],
+      "availabilityHours": ["Mon 7-8pm", "Fri 5-6pm"]
+    }
+  ]

@@ -1,0 +1,64 @@
+/* src/components/Footer.css */
+
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ddd;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center; /* Align the icons horizontally */
+    align-items: center; /* Center them vertically */
+    gap: 20px; /* Space out the icons */
+  }
+  
+  .social-icon {
+    font-size: 30px; /* Increase size if needed */
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #1da1f2; /* Blue for Twitter on hover, change for each icon as needed */
+  }
+  
+  /* For bottom copyright text */
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  

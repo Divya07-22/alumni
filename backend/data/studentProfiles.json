@@ -1,0 +1,57 @@
+[
+    {
+      "id": "s1001",
+      "type": "student",
+      "name": "Emily Chen",
+      "profession": "Computer Science Student",
+      "skills": ["Python", "JavaScript", "React", "Data Structures"],
+      "yearsExperience": 1,
+      "specialization": "Full Stack Development",
+      "industryExperience": [
+        "Summer Internship - Tech Startup",
+        "University Research Assistant"
+      ],
+      "careerInterests": [
+        "Software Engineering",
+        "Web Development",
+        "Tech Leadership"
+      ],
+      "graduationYear": 2024
+    },
+    {
+      "id": "s1002",
+      "type": "student",
+      "name": "Marcus Johnson",
+      "profession": "Data Science Student",
+      "skills": ["Python", "R", "SQL", "Machine Learning", "Statistical Analysis"],
+      "yearsExperience": 0.5,
+      "specialization": "Machine Learning",
+      "industryExperience": ["Data Analysis Intern - Healthcare"],
+      "careerInterests": [
+        "Machine Learning Engineering",
+        "Data Science",
+        "AI Research"
+      ],
+      "graduationYear": 2024
+    },
+    {
+      "id": "s1003",
+      "type": "student",
+      "name": "Sofia Rodriguez",
+      "profession": "Business Analytics Student",
+      "skills": ["Excel", "Tableau", "Power BI", "SQL", "Project Management"],
+      "yearsExperience": 1.5,
+      "specialization": "Business Intelligence",
+      "industryExperience": [
+        "Business Analyst Intern - Retail",
+        "Student Consulting Club"
+      ],
+      "careerInterests": [
+        "Product Management",
+        "Business Analytics",
+        "Strategy Consulting"
+      ],
+      "graduationYear": 2025
+    }
+  ]
+  
